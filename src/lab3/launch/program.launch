@@ -1,0 +1,4 @@
+<launch>
+    <node name="second" pkg="lab3" type="p2.py" output="screen"/>
+    <node name="first" pkg="lab3" type="p1.py" output="screen" />
+</launch>
